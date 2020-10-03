@@ -25,9 +25,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'aq5e$zcz0^1$p+yjzq5(er5zdefp^(no6b3gbf&+43yo&+yizq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['scraplists.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
